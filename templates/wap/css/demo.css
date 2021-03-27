@@ -1,0 +1,55 @@
+.sidebar {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.content {
+  display: block;
+
+  width: auto;
+}
+.sidebar-nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-left: 20px;
+}
+.sidebar-nav{font-size: 14px;}
+.sidebar-nav span{margin-right: 10px;}
+.sidebar-nav a,
+.sidebar-nav a:hover,
+.sidebar-nav a:focus,
+.sidebar-nav a:active {
+  outline: none;
+}
+.sidebar-nav ul li,
+.sidebar-nav ul a {
+  display: block;
+  text-align: left;
+}
+.sidebar-nav ul a {
+  padding:10px 10px 10px 0;
+  color: #aaa;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.sidebar-nav ul a:hover,
+.sidebar-nav ul a:focus,
+.sidebar-nav ul a:active {
+  color: #005cab;
+  text-decoration: none;
+}
+.sidebar-nav ul ul a {
+  padding: 10px;
+}
+
+.sidebar-nav-item {
+  padding-left: 5px;
+}
+.sidebar-nav-item-icon {
+  padding-right: 5px;
+}
